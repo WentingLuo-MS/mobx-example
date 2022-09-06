@@ -9,17 +9,37 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 10vmin);
   color: white;
+  font-family: Courier, Monaco, monospace;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-header, .content-box {
+  min-height: 100vh;
+}
+
+.fade-in {
+  animation: fadeIn 5s ease-in-out;
+}
+
+.next-nav {
+  color:moccasin;
+  position: absolute;
+  bottom: 15pt;
+  right: 15pt;
+}
+
+.next-nav:hover {
+  color: darkkhaki;
 }
 
 @keyframes App-logo-spin {
